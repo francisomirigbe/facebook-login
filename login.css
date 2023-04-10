@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400&family=Nunito+Sans:ital,wght@0,300;1,200;1,300&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(242, 239, 239);
+    margin: 0;
+}
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    /* font-family: 'Trebuchet MS'; */
+    
+}
+
+h1{
+    color:rgb(56,130,246);
+    font-size: 55px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* padding: 5px; */
+    margin: 0;
+    margin-right: 15px;
+    width:45%;
+}
+
+.header p{
+    font-size: 30px;
+
+
+}
+
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(173,171,171, 0.4); 
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow:2px 5px rgba(173,171,171,0.3) ;
+    padding: 10px;
+    position: relative;
+
+
+}
+
+
+
+input{
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Trebuchet MS';
+    box-shadow:1px 3px rgba(173,171,171,0.3) ;
+    border:1px solid rgba(173,171,171,1)
+    /* border: 0; */
+    /* border-bottom: 1px solid rgb(53, 52, 52); */
+
+}
+
+button{
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: rgb(56,130,246);
+    border: 1px solid rgba(229,231,235, 1);
+    color:  rgb(229,231,235);
+
+}
+
+.new-account{
+    background-color: rgb(7, 127, 7);
+    width: 60%;
+    /* align-items: center; */
+    margin: 0 auto;
+    bottom: 10%;
+    position: absolute;
+    left: 20%;
+}
+
+.big-container p{
+    text-align: center;
+}
+.border-line{
+    border: 0;
+    margin: 0 auto;
+    width: 100%;
+    border-bottom: 1px solid rgba(173,171,171,0.3);
+
+}
+
+
+a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    color:rgb(56,130,246) ;
+    margin-bottom: 5px;
+    font-size: small;
+    
+}
+
+
+footer{
+    background-color: white;
+    width: 100%;
+    padding: 20px 0;
+    
+    
+}
+
+
+.footer-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-line{
+    border: 0;
+    border-bottom: 1px solid rgba(173,171,171,0.3);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    
+}
+
+.box-4{
+    padding-top: 20px;
+}
+
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+li{
+    display: inline;
+    
+
+
+}
+
+footer a{
+    color:rgb(173,171,171) ;
+    
+}
